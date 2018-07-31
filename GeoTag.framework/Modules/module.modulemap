@@ -1,0 +1,11 @@
+framework module GeoTag {
+  umbrella header "GeoTag.h"
+
+  export *
+  module * { export * }
+}
+
+module GeoTag.Swift {
+    header "GeoTag-Swift.h"
+    requires objc
+}
